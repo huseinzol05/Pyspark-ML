@@ -29,7 +29,7 @@ pyspark_1  |         http://(537864b567dc or 127.0.0.1):8080/?token=11f413ac6d1d
 
 ## How-to Hadoop
 
-Check Hadoop health, [localhost:9870](localhost:9870)
+Check Hadoop health, [localhost:9870](http://localhost:9870)
 
 <img src="screenshot/localhost-9870.png" width="60%">
 
