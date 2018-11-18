@@ -31,12 +31,12 @@ pyspark_1  |         http://(537864b567dc or 127.0.0.1):8080/?token=11f413ac6d1d
 
 Check Hadoop health, [localhost:9870](localhost:9870)
 
-<img src="screenshot/localhost-9870.png" align="right" width="50%">
+<img src="screenshot/localhost-9870.png" width="60%">
 
 Hadoop DFS Web UI, [localhost:9870/explorer.html#/](http://localhost:9870/explorer.html#/)
 
-<img src="screenshot/hadoop-storage.png" align="right" width="50%">
+<img src="screenshot/hadoop-storage.png" width="60%">
 
 Hadoop Node Manager, [localhost:8042/node](http://localhost:8042/node)
 
-<img src="screenshot/localhost-8042.png" align="right" width="50%">
+<img src="screenshot/localhost-8042.png" width="60%">
