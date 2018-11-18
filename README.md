@@ -40,3 +40,18 @@ Hadoop DFS Web UI, [localhost:9870/explorer.html#/](http://localhost:9870/explor
 Hadoop Node Manager, [localhost:8042/node](http://localhost:8042/node)
 
 <img src="screenshot/localhost-8042.png" width="60%">
+
+## How-to Spark-cluster
+
+1. Run docker compose,
+```bash
+docker-compose -f docker-compose-cluster.yml up --build --remove-orphans
+```
+
+If success,
+```text
+slave_2   | 2018-11-18 07:57:59 INFO  Worker:54 - Successfully registered with master spark://192.168.128.2:7077
+slave_1   | 2018-11-18 07:58:10 INFO  Worker:54 - Successfully registered with master spark://192.168.128.2:7077
+```
+
+<img src="screenshot/pyspark-cluster" width="60%">
