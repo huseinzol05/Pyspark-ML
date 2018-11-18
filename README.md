@@ -54,4 +54,4 @@ slave_2   | 2018-11-18 07:57:59 INFO  Worker:54 - Successfully registered with m
 slave_1   | 2018-11-18 07:58:10 INFO  Worker:54 - Successfully registered with master spark://192.168.128.2:7077
 ```
 
-<img src="screenshot/pyspark-cluster" width="60%">
+<img src="screenshot/pyspark-cluster.png" width="60%">
