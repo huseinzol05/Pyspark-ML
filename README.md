@@ -12,6 +12,8 @@ Gathers data science and machine learning problem solving using PySpark and Hado
 4. Word Vector
 5. Read Iris csv from Hadoop DFS
 6. PCA on Iris dataset
+7. MNIST feed-forward sparkflow
+8. MNIST CNN sparkflow
 
 ## How-to Notebook
 
