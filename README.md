@@ -24,12 +24,7 @@ Gathers data science and machine learning problem solving using PySpark and Hado
 compose/build
 ```
 
-2. Copy link from terminal to browser,
-```text
-pyspark_1  |     Copy/paste this URL into your browser when you connect for the first time,
-pyspark_1  |     to login with a token:
-pyspark_1  |         http://(537864b567dc or 127.0.0.1):8080/?token=11f413ac6d1d78aa926042779768759ac227a8ebc0e57ecf
-```
+2. Visit [localhost:8089](http://localhost:8089) for passwordless jupyter notebook.
 
 ## How-to Hadoop
 

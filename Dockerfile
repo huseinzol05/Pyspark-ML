@@ -54,3 +54,8 @@ ENV LANG C.UTF-8
 RUN pip3 install pandas matplotlib seaborn
 
 RUN ln -s /usr/bin/python3 /usr/bin/python
+
+RUN jupyter notebook --generate-config
+
+RUN echo "" >> /root/.jupyter/jupyter_notebook_config.py
+RUN echo "c.NotebookApp.token = ''" >> /root/.jupyter/jupyter_notebook_config.py
