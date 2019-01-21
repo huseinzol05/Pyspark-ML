@@ -36,3 +36,8 @@ RUN apt install -y supervisor
 
 ENV PYSPARK_PYTHON python3
 ENV PYSPARK_DRIVER_PYTHON python3
+
+RUN jupyter notebook --generate-config
+
+RUN echo "" >> /root/.jupyter/jupyter_notebook_config.py
+RUN echo "c.NotebookApp.token = ''" >> /root/.jupyter/jupyter_notebook_config.py

@@ -14,6 +14,8 @@ Gathers data science and machine learning problem solving using PySpark and Hado
 6. PCA on Iris dataset
 7. MNIST feed-forward sparkflow
 8. MNIST CNN sparkflow
+9. MNIST RNN-LSTM sparkflow
+10. Fashion-MNIST Inception v1 sparkflow
 
 ## How-to Notebook
 
@@ -55,5 +57,7 @@ If success,
 slave_2   | 2018-11-18 07:57:59 INFO  Worker:54 - Successfully registered with master spark://192.168.128.2:7077
 slave_1   | 2018-11-18 07:58:10 INFO  Worker:54 - Successfully registered with master spark://192.168.128.2:7077
 ```
+
+Check Spark health, [localhost:8080](http://localhost:8080)
 
 <img src="screenshot/pyspark-cluster.png" width="60%">
